@@ -6,6 +6,5 @@
     Duration: "120hrs"
   tasks: 
   - name: prniting variables
-    ansibel.builtin.debug:
-      msg: "Hi, i'm learing {{Course}} from Trainer {{trainer}}, Duration is {{Duration}}"
-      
+    ansible.builtin.debug:
+      msg: "Hi, I'm learing {{Course}} from Trainer {{trainer}}, Duration is {{Duration}}."
