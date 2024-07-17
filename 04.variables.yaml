@@ -5,6 +5,7 @@
     Trainer: "SivaKumar"
     Duration: "120hrs"
   tasks: 
-  - name: #prniting variables
+  - name: prniting variables
     ansibel.builtin.debug:
       msg: "Hi, i'm learing {{Course}} from Trainer {{trainer}}, Duration is {{Duration}}"
+      
