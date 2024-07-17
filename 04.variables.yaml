@@ -7,4 +7,4 @@
   tasks: 
   - name: prniting variables
     ansible.builtin.debug:
-      msg: "Hi, I'm learing {{Course}} from Trainer {{trainer}}, Duration is {{Duration}}."
+      msg: "Hi, I'm learing {{Course}} from Trainer {{Trainer}}, Duration is {{Duration}}."
