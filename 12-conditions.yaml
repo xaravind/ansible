@@ -8,7 +8,7 @@
     register: USER
     ignore_errors: True
   - name: print user information
-    anible.builtin.debug:
+    ansible.builtin.debug:
      msg: "user informstion is {{USER}}"
   - name: create user 
     ansible.builtin.command:
