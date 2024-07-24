@@ -9,7 +9,7 @@
     ansible.builtin.debug:
       msg: "Hi, I'm learning {{Course}} from Trainer {{Trainer}}, Duration is {{Duration}}."
   - name: print override information
-    vars: #Task levl variables 
+    vars: #Task level variables 
       Course: "Docker"
     ansible.builtin.debug:
       msg: "Hi, I'm learning {{Course}} from Trainer {{Trainer}}, Duration is {{Duration}}."
